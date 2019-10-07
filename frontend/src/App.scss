@@ -1,0 +1,93 @@
+* {
+  font-size: 16px;
+  box-sizing: border-box; 
+  margin: 0;
+}
+body, html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* .App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+.App-link {
+  color: #089E9C;
+  text-decoration: none; 
+  font-size: large; 
+}
+.App-link:hover {
+  color: darken(#089E9C, 5%); 
+}
+
+.loginForm {
+  text-align: center;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  margin: 0 auto; 
+  height: 100vh;   
+  max-width: 25rem;  
+}
+.inputLogin {
+  height: 3rem; 
+  width: 100%; 
+  border-radius: 50px;
+  border: solid 2px #23A6CC;
+  margin-bottom: 1.5rem; 
+  padding-left: 1.5rem;  
+}
+.btn1, .btn2 {
+  height: 3rem; 
+  width: 100%; 
+  border: none; 
+  border-radius: 50px;
+  margin-bottom: 1.5rem; 
+  color: #fff;
+  cursor: pointer; 
+}
+.btn1 {
+  background-color: #23A6CC;  
+}
+.btn1:hover {
+  background-color: darken(#23A6CC, 3%);
+}
+.btn2 {
+  background-color: #E85709;  
+}
+.btn2:hover {
+  background-color: darken(#E85709, 3%);
+}
+h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+.skraContainer {
+  display: flex;
+  
+
+}
+.formSkra, .skraInfo {
+   width: 30vw;
+}
+.skraInfo {
+  h3 {
+    text-align: center;
+    font-size: x-large;  
+  }
+}
